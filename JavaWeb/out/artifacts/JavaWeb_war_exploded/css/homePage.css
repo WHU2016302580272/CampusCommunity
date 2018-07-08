@@ -1,0 +1,431 @@
+#body{
+    padding:0;
+    margin:0;
+    background:#FCFDF8;
+}
+
+#div1 {
+    width:100%;
+    height:50px;
+    border:solid 1px #ECDFA2;
+    margin:0px auto;
+    background:#ECDFA2;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:2;
+    box-shadow: 0px 2px #d2d2d2;
+}
+
+#div1_1 {
+    height:100%;
+    width:100%;
+    margin-left:10% ;
+    margin-top:3px;
+}
+
+#ctx{
+    width:35%;
+    height:40px;
+    border-radius: 4px;
+    border: 1px solid #c8c8c8;
+    padding:5px 20px
+}
+
+#srh{
+    width:75px;
+    height:40px;
+    margin-left:30px;
+    border-radius: 4px;
+    border: 1px solid #540060;
+    background: #fffef6;
+}
+
+
+#div1_user_icon{
+    background:#ffffff;
+    margin-left:88% ;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    border-radius:100px;
+    border:1.5px solid #bbbbbb	;
+    overflow:hidden;
+    box-shadow:0 0 3px #ccc;
+    position:fixed;
+    z-index:2;
+}
+
+.icon_bell{
+    width:33px;
+    min-height:33px;
+    margin-top:-1.5px;
+    margin-left:-1.5px;
+
+}
+
+#div2 {
+    width:100%;
+    height:3px;
+    background:#dedede;
+    position:fixed;
+    left:0px;
+    top:35.6px;
+    z-index:1;
+}
+
+.circle{
+    margin:-30px ;
+    margin-top:-2.5px;
+    display:inline-block;
+    width:52px;
+    height:52px;
+    border-radius:100px;
+    border:1.5px solid #bbbbbb	;
+    overflow:hidden;
+    box-shadow:0 0 3px #ccc;
+}
+.img{
+    width:55px;
+    min-height:55px;
+    margin-top:-1.5px;
+    margin-left:-1.5px;
+}
+
+.msg{
+    margin:0px 0 0 0;
+    line-heigh:5px;
+    color: #6e6e6e;
+    font-size:13px;
+    text-decoration:none;
+}
+
+.msg:active{
+    color:red;
+}
+
+.msg:hover{
+    font-weight:600;
+}
+
+.pas{
+    font-size:16px;
+    text-decoration:none;
+    color: blue;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.pas:hover{
+    font-weight:900;
+}
+
+#passage{
+    width:0px;
+    height: 0px;
+}
+
+#div3{
+    width:768px;
+    height:1000px;
+    background:#FCFDF8;
+    margin-top:50px;
+    position:absolute;
+    margin-left:10%
+}
+
+.div3_passage_border{
+    border:1px solid #cdb5cc;
+}
+
+.div3_rectangle_border{
+    border: 1px solid #cdb5cc;
+}
+
+.div3_i_user_img:hover .div3_i_user_img{
+    width:24%;height:90px
+}
+
+#div4 {
+    width:100%;
+    height:6%;
+    margin:0px auto;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:94%;
+    z-index:2;
+}
+
+#div4_1 {
+    width:100%;
+    height:6%;
+    margin:8% ;
+    margin-top:3px;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:95%;
+}
+
+#div4_2 {
+    width:100%;
+    height:6%;
+    margin:16% ;
+    margin-top:3px;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:95%;
+}
+
+#div4_3 {
+    width:100%;
+    height:6%;
+    margin:80% ;
+    margin-top:3px;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:95%;
+}
+
+#feedback {
+    float:left
+}
+
+#about_us {
+    float:left;
+}
+
+#div5{
+    width:400px;
+    height:150px;
+    border-radius: 7.5px;
+    background:#ffffff;
+    position:absolute;
+    left:65%;
+    top:73.2px;
+    border: 1px solid #cdb5cc
+}
+
+#div5_text1{
+    margin-top:40px;
+    font-size:40px;
+    margin-left:30%;
+    color:#7b538f;
+    font-weight:900;
+}
+
+#sign_in{
+    margin-top:-19px;
+    margin-left:65%;
+    color:#000000;
+}
+
+#sign_up:hover{
+    font-weight: 600;
+}
+
+#sign_in:active{
+    color:red;
+}
+
+#sign_in:hover{
+    font-weight: 600;
+}
+
+#sign_up:active{
+    color:red;
+}
+
+#sign_up{
+    margin-top:-36px;
+    margin-left:78%;
+    color: #000000;
+}
+
+#div6{
+    width:400px;
+    height:350px;
+    border-radius: 7.5px;
+    background:#ffffff;
+    position:absolute;
+    left:65%;
+    min-left:768px;
+    top:256.2px;
+    border: 1px solid #cdb5cc
+}
+
+#find{
+    width:70%;
+    height:30px;
+    margin-left:60px;
+    background-color: #9D85A9;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ededed
+}
+
+#div6_text{
+   margin-left:15%;
+    font-size:20px;
+    color:#7b538f;
+    font-weight:600;
+}
+
+.div6_sort{
+    width:70%;
+    height:25px;
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+.search{
+    width:70%;
+    height:25px;
+    border-radius: 4px;
+    border: 1px solid #666666;
+}
+
+#sign_up_page{
+    width:25.4%;
+    height:302px;
+    z-index:-1;
+    background:#ffffff;
+    position: fixed;
+    border-radius: 4px;
+    border: 0px solid #000000;
+    top: 50%;
+    left: 50%;
+    margin-left: -12.7%;
+    margin-top: -151.5px;
+    opacity:0;
+}
+
+#sign_in_page{
+    width:25.4%;
+    height:34.3%;
+    z-index:-1;
+    background:#ffffff;
+    position: fixed;
+    border-radius: 4px;
+    border: 0px solid #000000;
+    top: 50%;
+    left: 50%;
+    margin-left: -12.7%;
+    margin-top: -8.6%;
+    opacity:0
+}
+
+.yellow_div{
+    width:100%;
+    height:30px;
+    background:#eee88d;
+    border-radius: 4px;
+    border: 0px solid #000000;
+}
+
+.div{
+    width:100%;
+    height:30px;
+    background:#eee88d;
+    border-radius: 4px;
+    border: 0px solid #000000;
+}
+
+.close_div{
+    margin-left:93%;
+    margin-top:1%;
+}
+
+form {
+    margin:0px;
+    display: inline;
+}
+
+#div7{
+    float:right;
+    width:100%;
+    height:200px;
+    position:absolute;
+}
+
+#pre_next{
+    margin-top:60px;
+    width:20%;
+    margin-left:70%;
+}
+
+.div7{
+    width:100%;
+    position:absolute;
+    top:100%;
+}
+
+#new{
+    width:70%;
+    height:30px;
+    color: white;
+    border-radius: 5px;
+    border: 1.5px solid #888888;
+    background-color: #9D85A9;
+    font-weight:600;
+}
+
+#hot{
+    width:70%;
+    height:30px;
+    border-radius: 5px;
+    border: 1.5px solid #888888;
+    background-color: #ffffff;
+    color: black;
+    font-weight:600;
+}
+
+#next{
+    background: #ffffff;
+    border: 1.5px solid  #540060;
+    border-radius: 4px;
+    height:30px;
+    width: 80px;
+}
+
+#pre{
+    background: #ffffff;
+    border: 1.5px solid  #540060;
+    border-radius: 4px;
+    height:30px;
+    width: 80px;
+}
+
+#login{
+    border: 1.5px solid #540060;
+    background: #fffeec;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    margin-top:30px;
+    margin-left:60%;
+}
+
+#register{
+    border: 1.5px solid #540060;
+    background: #fffeec;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    margin-top:30px;
+    margin-left:60%;
+}
+
+#cover{
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background:#000000;
+    opacity:0;
+    position: fixed;
+    top:0%;
+    left:0%;
+}
