@@ -1,0 +1,549 @@
+#body{
+    padding:0;
+    margin:0;
+    background:#FCFDF8;
+}
+
+#avatar {
+    width: 100px;
+    height: 100px;
+}
+
+
+#navIcons{/*所有选项卡图标占据的位置*/
+    margin-left:10%;
+    margin-top:2%;
+    width:50%;
+    height:4.9%;
+}
+
+.navIcon{/*未被选中的图标按钮*/
+    float:left;
+    position:relative;
+    width:7.5%;
+    height:100%;
+    border:solid #DDCADC 1px;
+    border-radius: 10px 10px 0px 0px;
+    z-index:0;
+    min-width: 40px;
+    min-height: 38px;
+}
+
+.navIconSelected{/*被选中的图标按钮*/
+    float:left;
+    position:relative;
+    width:7.5%;
+    height:100%;
+    border:solid rgba(221,202,220,0.1) 1px;
+    background-color:#540060;
+    border-radius: 10px 10px 0px 0px;
+    z-index:0;
+    min-width: 40px;
+    min-height: 38px;
+}
+
+.navSpace {/*定义后三个图标的间隔以组合*/
+    margin-left: 0.8%;
+}
+
+.navImg{/*按钮中央图片*/
+    width:37.1%;
+    height:55%;
+    margin-left:31.5%;
+    margin-top:16%;
+    z-index:1;
+}
+
+#navFrame {/*选项卡图标下的分隔线*/
+    position:relative;
+    margin-left: 10%;
+    width: 45.1%;
+    height: 1%;
+    background-color:#540060;
+    z-index:1;
+    min-width: 500px;
+}
+
+#container_1 {/*显示内容及翻页按钮的区域*/
+    position: relative;
+    margin-left: 10%;
+    width: 45%;
+    background-color:white;
+    border:solid 1px #DDCADC;
+    z-index:1;
+    min-width: 500px;
+}
+
+#content{
+    position: relative;
+    margin-left: 5%;
+    margin-top:4%;
+    width: 90%;
+    z-index:3;
+    overflow:hidden;
+}
+
+#btBar{/*装翻页按钮的栏*/
+    position: relative;
+    margin-top:4%;
+    width: 100%;
+    height: 7.8%;
+    background-color:#540060;
+    z-index:3;
+}
+
+.btn_1{
+    float:left;
+    position:relative;
+    margin-left:4.2%;
+    margin-top:1.9%;
+    width: 70px;
+    height:30px;
+    border:#540060 1px;
+    background-color:rgb(246,243,197);
+    border-radius: 4px;
+    z-index:4;
+    visibility:hidden;
+}
+
+#bottom{
+    padding-bottom: 5%;
+}
+
+.btnSpace{
+    margin-left:69%;
+}
+
+.starTxt{/*收藏界面文本*/
+    color: rgb(63, 81, 181);
+    margin-top:0.02%;
+}
+
+.queIcon{/*问题界面图标*/
+    float:left;
+    position:relative;
+    width:12%;
+    height:5%;
+    border:solid #DDCADC 1px;
+    vertical-align:middle;
+}
+
+.queImg/*问题界面图标的图片*/{
+    margin-top:7%;
+    margin-left:6.5%;
+    width:28.3%;
+    height:75%;
+    vertical-align:middle;
+}
+
+.queFont{/*问题界面图标的数字*/
+    margin-left:4.5%;
+    margin-top:1%;
+    vertical-align:middle;
+}
+
+.p{/*使得图片与数字对齐*/
+    margin:0;
+}
+
+.queSpace{
+    margin-left:1.6%;
+}
+
+.queTxtArea{
+    /*margin-left:28.7%;
+    margin-top:4%;
+    width:75.6%;
+    height:5%;*/
+    float:left;
+    position:relative;
+    margin-left:2.4%;
+    padding-top:0.7%;
+    width:70%;
+    height:5%;
+}
+
+.queTxt{
+    color:#BBBBBB;
+}
+
+.queTitle{
+    margin-left:2.4%;
+    color: rgb(63, 81, 181);
+}
+
+.ansIcon{
+    float:left;
+    position:relative;
+    width:12%;
+    height:5%;
+    border:solid #DDCADC 1px;
+    vertical-align:middle;
+}
+
+.ansImg/*问题界面图标的图片*/{
+    margin-top:7%;
+    margin-left:6.5%;
+    width:28.3%;
+    height:75%;
+    vertical-align:middle;
+}
+
+.ansTxtArea{
+    /*margin-left:28.7%;
+    margin-top:4%;
+    width:75.6%;
+    height:5%;*/
+    float:left;
+    position:relative;
+    margin-left:2.4%;
+    padding-top:0.7%;
+    width:70%;
+    height:5%;
+}
+
+.ansBlue{
+    /*margin-top:0%;
+    */
+    color:#BBBBBB;
+}
+
+.ansTitle{
+    margin-left:2.4%;
+    color: rgb(63, 81, 181);
+}
+
+.ansTxt{
+    float:left;
+    position:relative;
+    margin-left:0%;
+    padding-top:0.7%;
+    width:100%;
+    height:17%;
+    border-bottom:1px solid #DDCADC ;
+    margin-bottom: 20px;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.br{
+    padding-bottom: 5%
+}
+
+#main_div{
+    position: relative;
+    top:4%;
+}
+
+#div1 {
+    width:100%;
+    min-width: 500px;
+    height:50px;
+    border:solid 1px #ECDFA2;
+    margin:0px auto;
+    background:#ECDFA2;
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index:2;
+    box-shadow: 0px 2px #d2d2d2;
+}
+
+#div1_img{
+    position:absolute;
+    left:39%;
+    top:5px;
+}
+
+#ctx{
+    width:30%;
+    height:40px;
+    border-radius: 4px;
+    border: 1px solid #c8c8c8;
+    padding:5px 20px;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+
+#question{
+    width:150px;
+    height:40px;
+    margin-left:100px;
+    border-radius: 4px;
+    border: 1px solid #540060;
+    background: #fffef6;
+    font-weight: 900;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#srh{
+    weidth:3%;
+    height:40px;
+    z-index:2;
+    cursor: pointer;
+}
+
+#logined_show{
+    width: 84%;
+    opacity: 0;
+    min-width: 600px;
+}
+
+#div1_user_icon{
+    background:#ffffff;
+    margin-left:0px ;
+    margin-top: 2.5px;
+    display:inline-block;
+    width:33px;
+    height:33px;
+    border-radius:100px;
+    border:1.5px solid #bbbbbb	;
+    overflow:hidden;
+    box-shadow:0 0 3px #ccc;
+    position:fixed;
+    z-index:2;
+    cursor: pointer;
+}
+
+.icon_bell{
+    width:33px;
+    min-height:33px;
+    margin-top:-1.5px;
+    margin-left:-1.5px;
+}
+
+#passage{
+    width:0px;
+    height: 0px;
+}
+
+
+#div4 {
+    width:100%;
+    height:6%;
+    padding-top:7% ;
+    margin:0px auto;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:94%;
+    z-index:2;
+}
+
+#div4_1 {
+    width:100%;
+    height:6%;
+    margin:8% ;
+    margin-top:3px;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:95%;
+}
+
+#div4_2 {
+    width:100%;
+    height:6%;
+    margin:16% ;
+    margin-top:3px;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:95%;
+}
+
+#div4_3 {
+    width:100%;
+    height:6%;
+    margin:80% ;
+    margin-top:3px;
+    background:#CCC9CC;
+    position:fixed;
+    left:0px;
+    top:95%;
+}
+
+#feedback {
+    float:left
+}
+
+#about_us {
+    float:left;
+}
+
+#user_icon{
+    width: 100px;
+    height: 100px;
+}
+
+#user_detail {
+    width:25% ;
+    height:150px;
+    position:absolute;
+    left:60%;
+    top:175px;
+}
+
+#user_msg{
+    width: 50%;
+    margin-left:25% ;
+}
+
+#user_name{
+    background: #f8f4f9;
+    padding: 5px;
+}
+
+.user_msg{
+    font-size: 13px;
+}
+
+.yellow_div{
+    width:100%;
+    height:30px;
+    background:#eee88d;
+    border-radius: 4px;
+    border: 0px solid #000000;
+}
+
+#cover{
+    width:100%;
+    height:100%;
+    z-index:-1;
+    background:#000000;
+    opacity:0;
+    position: fixed;
+    top:0%;
+    left:0%;
+}
+
+#modify_user_msg{
+    width:410px;
+    height:380px;
+    z-index:-1;
+    background:#ffffff;
+    position: fixed;
+    border-radius: 4px;
+    border: 0px solid #000000;
+    left: 50%;
+    top:-25%;
+    margin-left: -205px;
+    margin-top: -190px;
+    opacity:0;
+}
+
+.close_div{
+    margin-right:3px ;
+    margin-top:5px;
+}
+
+#master_msg_div{
+    width: 100%;
+    height: 370px;
+    position: relative;
+}
+
+#master_icon_div{
+    width: 50%;
+    height: 370px;
+    position: absolute;
+    left: 50%;
+    top:30px;
+}
+
+
+
+#master_input_msg{
+    border-collapse:separate;
+    border-spacing:20px;
+    width: 100%;
+}
+
+.master_msg{
+    margin-left: 30px;
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    border: #BBBBBB solid 1px;
+}
+
+#label_1{
+    margin-left: 45px;
+    color:#888888 ;
+}
+
+#master_school{
+    color: #cccccc;
+}
+
+#submit{
+    border: 1.5px solid #540060;
+    background: #fffeec;
+    border-radius: 4px;
+    width: 80px;
+    height: 30px;
+    margin-top:0px;
+    margin-left:70%;
+}
+
+
+#question_passage{
+    width:37.5%;
+    height:350px;
+    z-index:-1;
+    background:#ffffff;
+    position: fixed;
+    border-radius: 4px;
+    border: 0px solid #000000;
+    left: 50%;
+    top:-25%;
+    margin-left: -18.75%;
+    margin-top: -175px;
+    opacity:0;
+    font-size: 14px;
+}
+
+#passage_title{
+    width:90% ;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #c8c8c8;
+    padding:30px;
+    left:5%;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+#passage_content{
+    width:90% ;
+    height: 170px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #c8c8c8;
+    padding:30px;
+    left:5%;
+    margin-left: 5%;
+    margin-top: 5px;
+}
+
+#passage_submit{
+    width:24.5%;
+    height:30px;
+    margin-left:70%;
+    border-radius: 4px;
+    border: 1px solid #540060;
+    background: #fffef6;
+    margin-top:2%;
+}
+
+.ansTitle{
+    text-decoration:none;
+}
+
+.queTitle{
+    text-decoration:none;
+}
